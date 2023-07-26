@@ -1,6 +1,7 @@
 {
   "name": "ecoappmeter",
   "version": "0.1.0",
+  "homepage": "https://github.com/biroue10/ecoappmeter",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -41,6 +42,5 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "homepage": "https://github.com/biroue10/ecoappmeter"
+  }
 }
