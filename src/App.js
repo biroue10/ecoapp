@@ -10,9 +10,9 @@ function Main() {
   const [Number_of_GPUs, setNumber_of_GPUs] = useState("");
   const [GPU_Power_Consumption, setGPU_Power_Consumption] = useState("");
   const [time, setTime] = useState("");
-  const [code, setCode] = useState("")
+  const [code, setCode] = useState("");
   const [result, setresult] = useState("");
-  const [carbon, setCarbon] = useState("")
+  const [carbon, setCarbon] = useState("");
   function handlesubmit(e) {
     e.preventDefault();
   }
@@ -22,18 +22,21 @@ function Main() {
         Memory_Power_Consumption +
         (Number_of_GPUs * GPU_Power_Consumption) / 1000,
     );
-    function biroue(e){
+    function biroue(e) {
       const options = {
-        method: 'GET',
+        method: "GET",
         headers: {
-          'auth-token': '5oVI8h7lSIYZILqfv9IiI8RsN81bLhq7'
+          "auth-token": "5oVI8h7lSIYZILqfv9IiI8RsN81bLhq7",
         },
       };
-      fetch(`https://api-access.electricitymaps.com/2w97h07rvxvuaa1g/carbon-intensity/latest?zone=${e}`, options)
-        .then(response => response.json())
-        .then(response => setCarbon(response.carbonIntensity))
+      fetch(
+        `https://api-access.electricitymaps.com/2w97h07rvxvuaa1g/carbon-intensity/latest?zone=${e}`,
+        options,
+      )
+        .then((response) => response.json())
+        .then((response) => setCarbon(response.carbonIntensity));
     }
-    biroue(code)
+    biroue(code);
   }
   function reset() {
     setName_of_the_App("");
@@ -44,7 +47,7 @@ function Main() {
     setGPU_Power_Consumption("");
     setresult("");
     setTime("");
-    setCode("")
+    setCode("");
   }
   return (
     <div className="formulaire">
@@ -121,22 +124,25 @@ function Main() {
           autoComplete="off"
         />
         <label htmlFor="">Country Code (ISO Code):</label>
-        <input type="text" 
+        <input
+          type="text"
           placeholder="Enter Your Country Code to to get the CO2eq of the energy released"
-          onChange={(e)=>setCode(e.target.value)}
+          onChange={(e) => setCode(e.target.value)}
           value={code}
           name="eigth"
           id="eigth"
         />
         <div className="boutons">
-          <button onClick={calculate} className="calculer">Calculate</button>
+          <button onClick={calculate} className="calculer">
+            Calculate
+          </button>
           <button className="reset" onClick={reset}>
             Reset
           </button>
         </div>
       </form>
       <div className="result">
-      <h3>Result:</h3>
+        <h3>Result:</h3>
         {result
           ? `The power consume by ${Name_of_the_App} during ${time} hours is ${result} kW
           The carbon intensity in this Area is ${carbon}`

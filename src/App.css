@@ -83,7 +83,6 @@ input[type="text"] {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 .reset {
   background-color: brown;
@@ -92,7 +91,7 @@ input[type="text"] {
   font-style: italic;
   font-size: 15px;
   margin-top: auto;
-text-indent: 10px;
+  text-indent: 10px;
 }
 .boutons button {
   font-size: 1rem;
@@ -109,7 +108,7 @@ text-indent: 10px;
   flex-direction: column;
   color: white;
   font-weight: 900;
-  padding: 10px 10px 10px 10px ;
+  padding: 10px 10px 10px 10px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -119,31 +118,32 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
-.nav a{
-color:#9ae17b;
-text-decoration: none;
-text-transform: uppercase;
-font-size: 2rem;
-font-weight: 900;
-font-style: italic;
-border: 1px solid #9ae17b;
-padding: 7px;
-border-radius: 5px;
+.nav a {
+  color: #9ae17b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 900;
+  font-style: italic;
+  border: 1px solid #9ae17b;
+  padding: 7px;
+  border-radius: 5px;
 }
-.nav a:hover{
-background-color: #9ae17b;
-color: black;
+.nav a:hover {
+  background-color: #9ae17b;
+  color: black;
 }
 
-li:hover{
+li:hover {
   background-color: black;
-  border:1 px solid #9ae17b
+  border: 1 px solid #9ae17b;
 }
-.calculer, .reset{
+.calculer,
+.reset {
   padding: 15px;
   font-weight: 900;
 }
-.pied{
+.pied {
   background-color: black;
   height: 60px;
   color: #9ae17b;
