@@ -13,7 +13,6 @@ function Main() {
   const [code, setCode] = useState("")
   const [result, setresult] = useState("");
   const [carbon, setCarbon] = useState("")
-
   function handlesubmit(e) {
     e.preventDefault();
   }
@@ -130,13 +129,14 @@ function Main() {
           id="eigth"
         />
         <div className="boutons">
-          <button onClick={calculate}>Calculate</button>
+          <button onClick={calculate} className="calculer">Calculate</button>
           <button className="reset" onClick={reset}>
             Reset
           </button>
         </div>
       </form>
       <div className="result">
+      <h3>Result:</h3>
         {result
           ? `The power consume by ${Name_of_the_App} during ${time} hours is ${result} kW
           The carbon intensity in this Area is ${carbon}`

@@ -17,7 +17,7 @@ img {
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid #9ae17b;
-  padding: 20px;
+  padding: 10px;
   background-color: black;
 }
 li {
@@ -47,7 +47,7 @@ form {
   background-color: #9ae17b;
 }
 label {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
   font-size: 1rem;
   font-weight: 900;
   color: white;
@@ -55,11 +55,9 @@ label {
 button {
   border: none;
   margin-top: 4px;
-  padding: 4px;
   background-color: green;
   color: white;
   cursor: pointer;
-  padding: 5px;
   text-transform: uppercase;
 }
 form h3 {
@@ -79,7 +77,7 @@ input[type="text"] {
   background-color: antiquewhite;
   border: none;
   height: 30px;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 .boutons {
   display: flex;
@@ -93,24 +91,25 @@ input[type="text"] {
 ::placeholder {
   font-style: italic;
   font-size: 15px;
-  text-indent: 5px;
+  margin-top: auto;
+text-indent: 10px;
 }
 .boutons button {
   font-size: 1rem;
   border-radius: 2px;
   width: 40%;
-  padding: 5px;
 }
 .result {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  justify-content: center;
-  height: 50px;
-}
-.radio_button {
-  display: flex;
-  gap: 20px;
+  justify-content: flex-start;
+  height: 80px;
+  background-color: #9ae17b;
+  flex-direction: column;
+  color: white;
+  font-weight: 900;
+  padding: 10px 10px 10px 10px ;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -135,21 +134,24 @@ border-radius: 5px;
 background-color: #9ae17b;
 color: black;
 }
+
+li:hover{
+  background-color: black;
+  border:1 px solid #9ae17b
+}
+.calculer, .reset{
+  padding: 15px;
+  font-weight: 900;
+}
 .pied{
   background-color: black;
+  height: 60px;
   color: #9ae17b;
-  height: 40px;
-  width: 100%;
+  margin-top: 60px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-transform: uppercase;
-  font-size: 2rem;
-  border-top: 2px solid #9ae17b;
-  margin-top: auto;
-}
-body{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
 }
