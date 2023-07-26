@@ -16,7 +16,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid #9ae17b;
+  border-bottom: 4px solid #9ae17b;
   padding: 10px;
   background-color: black;
 }
@@ -154,4 +154,5 @@ li:hover {
   font-weight: 900;
   font-size: 1.5rem;
   text-align: center;
+  border-top: 4px solid #9ae17b;
 }
