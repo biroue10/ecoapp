@@ -37,39 +37,3 @@ Before installing EcoAppMeter, ensure you have the following software installed:
 
 ### Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/eco-app-meter.git
-cd eco-app-meter
-
-
-2. Install the dependencies:
-
-npm install
-
-
-## How to Use
-
-To start the development server and use EcoAppMeter, run the following command:
-
-npm start
-
-
-The application will be accessible at `http://localhost:3000` in your web browser.
-
-Follow the on-screen instructions to enter the application's details and calculate its power consumption. You can also compare multiple applications to find the most energy-efficient one.
-
-## Contributing
-
-We welcome contributions from the community! If you wish to contribute to EcoAppMeter, please follow our guidelines in [CONTRIBUTING.md](./CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](./LICENSE).
-
-## Acknowledgments
-
-- Hat tip to anyone whose code or libraries are used.
-- Thanks to the React community for creating such an excellent framework.
-- Special thanks to our contributors for their valuable input and efforts.
