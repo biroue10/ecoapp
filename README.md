@@ -21,10 +21,9 @@ In today's world, energy efficiency and environmental consciousness are crucial.
 
 ## Features
 
-- **Application Power Consumption Calculation**: Enter the details of your application, such as CPU, GPU, and memory usage, and EcoAppMeter will calculate its power consumption.
-- **Comparison**: Compare the power usage of multiple applications to identify the most energy-efficient ones.
-- **Energy Optimization Tips**: Get suggestions on how to reduce power consumption and make your applications more eco-friendly.
-- **Interactive Charts**: Visualize the power consumption data with interactive charts for better understanding.
+- **Application Power Consumption Calculation**: Enter the details of your application, such as the name of the app, the number of CPUs, CPU power consumption, memory power consumption, the number of GPUs (if used), GPU power consumption, and the time the app is running.
+- **Calculate Power Consumption**: After entering the application details, click the "Calculate" button to compute the total power consumption.
+- **Display Results**: React will render the name of the application along with the power consumption and the time the app consumes the power in hours.
 
 ## Getting Started
 
@@ -40,6 +39,7 @@ Before installing EcoAppMeter, ensure you have the following software installed:
 
 1. Clone the repository:
 
+```bash
 git clone https://github.com/your-username/eco-app-meter.git
 cd eco-app-meter
 
