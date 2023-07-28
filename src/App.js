@@ -131,6 +131,7 @@ function Main() {
           value={code}
           name="eigth"
           id="eigth"
+          autoComplete="off"
         />
         <div className="boutons">
           <button onClick={calculate} className="calculer">
@@ -142,7 +143,6 @@ function Main() {
         </div>
       </form>
       <div className="result">
-        <h3>Result:</h3>
         {result
           ? `The power consume by ${Name_of_the_App} during ${time} hours is ${result} kW
           The carbon intensity in this Area is ${carbon}`
