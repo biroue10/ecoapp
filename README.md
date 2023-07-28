@@ -2,7 +2,7 @@
 
 ![EcoAppMeter Logo](./path/to/logo.png)
 
-EcoAppMeter is a web application built with React that allows users to calculate the power consumption of different applications. By analyzing the power usage of applications, users can make informed decisions to reduce their environmental impact and optimize energy consumption.
+EcoAppMeter is a web application built with React that allows users to calculate the power consumption of different applications. By analyzing the power usage of applications and considering the carbon intensity of the country where the app is running, users can make informed decisions to reduce their environmental impact and optimize energy consumption.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -23,7 +23,8 @@ In today's world, energy efficiency and environmental consciousness are crucial.
 
 - **Application Power Consumption Calculation**: Enter the details of your application, such as the name of the app, the number of CPUs, CPU power consumption, memory power consumption, the number of GPUs (if used), GPU power consumption, and the time the app is running.
 - **Calculate Power Consumption**: After entering the application details, click the "Calculate" button to compute the total power consumption.
-- **Display Results**: React will render the name of the application along with the power consumption and the time the app consumes the power in hours.
+- **Carbon Intensity Consideration**: EcoAppMeter will also ask the user to enter the ISO code (in capital letters) of the country where the app is running. It will use a geographical map API to fetch the carbon intensity of that country. The app will then multiply the power consumption by the carbon intensity before rendering the result.
+- **Display Results**: React will render the name of the application along with the adjusted power consumption considering the carbon intensity and the time the app consumes the power in hours.
 
 ## Getting Started
 
@@ -37,3 +38,14 @@ Before installing EcoAppMeter, ensure you have the following software installed:
 
 ### Installation
 
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/eco-app-meter.git
+cd eco-app-meter
+
+Install the dependencies:
+npm install
+
+How to Use
+To start the development server and use EcoAppMeter, run the following command:
