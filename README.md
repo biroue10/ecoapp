@@ -1,6 +1,3 @@
-Absolutely! Here's the entire README written in Markdown for you to copy:
-
-```
 # EcoAppMeter - Power Consumption Calculator
 
 ![EcoAppMeter Logo](./path/to/logo.png)
@@ -46,7 +43,7 @@ Before installing EcoAppMeter, ensure you have the following software installed:
 ```bash
 git clone https://github.com/your-username/eco-app-meter.git
 cd eco-app-meter
-```
+
 
 2. Install the dependencies:
 
