@@ -81,4 +81,3 @@ This project is licensed under the [MIT License](./LICENSE).
 - Hat tip to anyone whose code or libraries are used.
 - Thanks to the React community for creating such an excellent framework.
 - Special thanks to our contributors for their valuable input and efforts.
-```
