@@ -6,8 +6,5 @@
     "main.130f3ae9.css.map": "/biroue10/ecoapp/static/css/main.130f3ae9.css.map",
     "main.0494ba8d.js.map": "/biroue10/ecoapp/static/js/main.0494ba8d.js.map"
   },
-  "entrypoints": [
-    "static/css/main.130f3ae9.css",
-    "static/js/main.0494ba8d.js"
-  ]
+  "entrypoints": ["static/css/main.130f3ae9.css", "static/js/main.0494ba8d.js"]
 }

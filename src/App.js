@@ -144,8 +144,10 @@ function Main() {
       </form>
       <div className="result">
         {result
-          ? `The power consume by ${Name_of_the_App} during ${time} hours is ${result} kW
-          The carbon intensity in this Area is ${carbon*result}`
+          ? `The power consume by ${Name_of_the_App} during ${time} hours is ${result} kWh
+          The carbon intensity in this Area is ${carbon} which give us ${
+            carbon * result
+          } grams of C02eq emissions over the same period`
           : ""}
       </div>
     </div>
