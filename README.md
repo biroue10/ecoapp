@@ -28,7 +28,7 @@ In today's world, energy efficiency and environmental consciousness are crucial.
   Total Power Consumption = (Number of CPUs * CPU Power Consumption) + Memory Power Consumption + (Number of GPUs * GPU Power Consumption) / 1000
   ```
   
-- **Carbon Intensity Consideration**: EcoAppMeter will also ask the user to enter the ISO code (in capital letters) of the country where the app is running. It will use a geographical map API to fetch the carbon intensity of that country. The app will then multiply the power consumption by the carbon intensity before rendering the result.
+- **Carbon Intensity Consideration**: EcoAppMeter will also ask the user to enter the ISO code (in capital letters) of the country where the app is running. It will use a Electricity Maps API to fetch the carbon intensity of that country. The app will then multiply the power consumption by the carbon intensity before rendering the result.
 - **Display Results**: React will render the name of the application along with the adjusted power consumption considering the carbon intensity and the time the app consumes the power in hours.
 
 ## Getting Started
