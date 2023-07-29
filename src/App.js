@@ -145,7 +145,7 @@ function Main() {
       <div className="result">
         {result
           ? `The power consume by ${Name_of_the_App} during ${time} hours is ${result} kW
-          The carbon intensity in this Area is ${carbon}`
+          The carbon intensity in this Area is ${carbon*result}`
           : ""}
       </div>
     </div>
