@@ -1,6 +1,6 @@
 # EcoAppMeter - Power Consumption Calculator
 
-![EcoAppMeter Logo](./path/to/logo.png)
+![logo](https://raw.githubusercontent.com/biroue10/ecoapp/main/src/Capture%20d%E2%80%99%C3%A9cran%20du%202023-07-29%2001-06-26.png)
 
 EcoAppMeter is a web application built with React that allows users to calculate the power consumption of different applications. By analyzing the power usage of applications and considering the carbon intensity of the country where the app is running, users can make informed decisions to reduce their environmental impact and optimize energy consumption.
 
