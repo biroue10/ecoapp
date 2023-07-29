@@ -43,7 +43,7 @@ Before installing EcoAppMeter, ensure you have the following software installed:
 ```bash
 git clone https://github.com/your-username/eco-app-meter.git
 cd eco-app-meter
-
+```
 
 2. Install the dependencies:
 
