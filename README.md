@@ -41,8 +41,8 @@ Before installing EcoAppMeter, ensure you have the following software installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/eco-app-meter.git
-cd eco-app-meter
+git clone https://github.com/biroue10/ecoapp.git
+cd ecoapp
 ```
 
 2. Install the dependencies:
