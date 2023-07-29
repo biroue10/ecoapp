@@ -1,6 +1,3 @@
-Certainly! Below is the updated README with the power consumption formula included:
-
-```markdown
 # EcoAppMeter - Power Consumption Calculator
 
 ![EcoAppMeter Logo](./path/to/logo.png)
