@@ -82,5 +82,3 @@ This project is licensed under the [MIT License](./LICENSE).
 - Thanks to the React community for creating such an excellent framework.
 - Special thanks to our contributors for their valuable input and efforts.
 ```
-
-Replace `./path/to/logo.png` with the actual path to your logo image file. Additionally, ensure you have a `LICENSE` file in the root directory of your project, and if you have specific contribution guidelines, create a `CONTRIBUTING.md` file in the project root and replace `[CONTRIBUTING.md]` in the Markdown code with the appropriate link.
