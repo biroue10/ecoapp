@@ -1,3 +1,6 @@
+Certainly! Below is the updated README with the power consumption formula included:
+
+```markdown
 # EcoAppMeter - Power Consumption Calculator
 
 ![EcoAppMeter Logo](./path/to/logo.png)
@@ -22,7 +25,12 @@ In today's world, energy efficiency and environmental consciousness are crucial.
 ## Features
 
 - **Application Power Consumption Calculation**: Enter the details of your application, such as the name of the app, the number of CPUs, CPU power consumption, memory power consumption, the number of GPUs (if used), GPU power consumption, and the time the app is running.
-- **Calculate Power Consumption**: After entering the application details, click the "Calculate" button to compute the total power consumption.
+- **Calculate Power Consumption**: After entering the application details, click the "Calculate" button to compute the total power consumption using the formula:
+  
+  ```
+  Total Power Consumption = (Number of CPUs * CPU Power Consumption) + Memory Power Consumption + (Number of GPUs * GPU Power Consumption) / 1000
+  ```
+  
 - **Carbon Intensity Consideration**: EcoAppMeter will also ask the user to enter the ISO code (in capital letters) of the country where the app is running. It will use a geographical map API to fetch the carbon intensity of that country. The app will then multiply the power consumption by the carbon intensity before rendering the result.
 - **Display Results**: React will render the name of the application along with the adjusted power consumption considering the carbon intensity and the time the app consumes the power in hours.
 
@@ -41,8 +49,8 @@ Before installing EcoAppMeter, ensure you have the following software installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/biroue10/ecoapp.git
-cd ecoapp
+git clone https://github.com/your-username/eco-app-meter.git
+cd eco-app-meter
 ```
 
 2. Install the dependencies:
